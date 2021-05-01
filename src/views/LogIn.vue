@@ -13,7 +13,7 @@
         required
       />
 
-      <label for="psw"><b>Password1</b></label>
+      <label for="psw"><b>Password</b></label>
       <input
         type="password"
         v-model="user.password"
