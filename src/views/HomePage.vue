@@ -1,16 +1,7 @@
 /* eslint-disable prettier/prettier */
 <template>
   <div>
-    <header id="main-header">
-      <div class="content">
-        <img src="../assets/logo.svg" alt="Logo Twitter" />
-        <div class="side">
-          <input type="text" placeholder="Search on Twitter" />
-          <img src="../assets/avatar.png" alt="" />
-          <button>Tweet</button>
-        </div>
-      </div>
-    </header>
+    <Header />
     <div class="wrapper-content content">
       <section class="timeline">
         <nav>
@@ -29,9 +20,11 @@
 
 <script>
 import Tweet from "../components/Tweet.vue";
+import Header from "../components/Header.vue";
 export default {
   components: {
     Tweet: Tweet,
+    Header: Header,
   },
   computed: {
     posts() {
