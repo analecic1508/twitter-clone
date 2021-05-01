@@ -3,6 +3,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import LogIn from '../views/LogIn.vue'
 import Profile from '../views/Profile.vue'
+import HomePage from '../views/HomePage.vue'
+
 Vue.use(Router)
 
 var router = new Router({
@@ -17,6 +19,11 @@ var router = new Router({
       path: '/Profile',
       name: 'profile',
       component: Profile
+    },
+    {
+      path: '/HomePage',
+      name: 'homePage',
+      component: HomePage
     }
   ]
 })
