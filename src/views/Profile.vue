@@ -1,21 +1,19 @@
 /* eslint-disable prettier/prettier */
 <template>
   <div>
-    <Header />
+    <Header :data="user" />
     <div class="banner">
       <h1>Clone Layout Twitter</h1>
     </div>
-    <Bar />
+    <Bar :data="user" />
     <div class="wrapper-content content">
-      <ProfileInfo />
+      <ProfileInfo :data="user" />
       <section class="timeline">
         <nav>
           <a class="active" href="">Tweets</a>
         </nav>
         <ul class="tweets">
-          <Tweet />
-          <Tweet />
-          <Tweet />
+          <Tweet :data="post" v-for="post in posts" :key="post.id" />
         </ul>
       </section>
     </div>
@@ -38,6 +36,15 @@ export default {
     posts() {
       return this.$store.state.posts;
     },
+    user() {
+      return this.$store.state.profileUser;
+    },
+  },
+  beforeMount() {
+    this.$store.commit("removeAllErrorText");
+    if (this.$route.params.user)
+      this.$store.commit("setProfileUser", this.$route.params.user);
+    this.$store.dispatch("getUserPosts");
   },
 };
 </script>

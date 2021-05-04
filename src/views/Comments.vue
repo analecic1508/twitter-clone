@@ -8,28 +8,28 @@
           <a class="active" href="">Tweets</a>
         </nav>
         <ul class="tweets">
-          <Tweet :data="post" v-for="post in posts" :key="post.id" />
+          <TweetWithComments :data="post" :key="post.id" />
         </ul>
       </section>
     </div>
   </div>
 </template>
 <script>
-import Tweet from "../components/Tweet.vue";
+import TweetWithComments from "../components/TweetWithComments.vue";
 import Header from "../components/Header.vue";
 export default {
   components: {
-    Tweet: Tweet,
+    TweetWithComments: TweetWithComments,
     Header: Header,
   },
   computed: {
-    posts() {
-      return this.$store.state.posts;
+    post() {
+      return this.$route.params.post;
     },
   },
   beforeMount() {
     this.$store.commit("removeAllErrorText");
-    this.$store.dispatch("getPosts");
+    this.$store.dispatch("getComments", this.$route.params.post.id);
   },
 };
 </script>
