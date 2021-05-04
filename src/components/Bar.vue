@@ -26,3 +26,15 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  props: ["data"],
+  computed: {
+    userPostsCount() {
+      return this.$store.state.posts.filter(
+        (f) => f.user.id == this.data.currentUser.id
+      );
+    },
+  },
+};
+</script>

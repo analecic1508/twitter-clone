@@ -1,8 +1,13 @@
 <template>
   <aside class="profile">
-    <img class="avatar" src="../assets/avatar.png" alt="Avatar" />
-    <h1>Breno Oliveira</h1>
-    <span>@brenoos</span>
-    <p>Um dev bacaninha apaixonado por tecnologia e novos desafios</p>
+    <img class="avatar" :src="data.profileImage" alt="Avatar" />
+    <h1>{{ data.name }}</h1>
+    <span>@{{ data.username }}</span>
+    <p>{{ data.status }}</p>
   </aside>
 </template>
+<script>
+export default {
+  props: ["data"],
+};
+</script>
