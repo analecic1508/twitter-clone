@@ -5,31 +5,58 @@
         ><img :src="data.user.profileImage" alt="Avatar" width="50" height="50"
       /></router-link>
       <div class="info2">
-        <p class="ex2">{{ fullName }}</p>
-        <span
-          ><p class="ex2">{{ data.user.username }}</p></span
+        <strong>
+          <p class="secondaryText">{{ fullName }}</p>
+          <span
+            ><p class="tertiaryText">@{{ data.user.username }}</p></span
+          ></strong
         >
-        <p class="ex2">{{ data.tweet }}</p>
-        <div v-if="data.comments">
-          <div v-for="(comment, index) in data.comments" :key="index">
-            <strong
-              >{{ fullName }} <span>{{ data.user.username }}</span></strong
-            >
-            <div style="display: flex">
-              <p>{{ comment.comment }}</p>
-              <div v-if="userCanEdit(comment.user.id)">
-                <a href="#" @click="openEditComment(comment)"
-                  ><img src="../assets/edit.jpg" alt="edit" /></a
-                ><a href="#" @click="deleteComment(comment)"
-                  ><img src="../assets/delete.png" alt="delete"
-                /></a>
-              </div>
+        <p class="primaryText">{{ data.tweet }}</p>
+        <ul>
+          <div v-if="data.comments">
+            <div v-for="(comment, index) in data.comments" :key="index">
+              <li>
+                <router-link
+                  :to="{ name: 'profile', params: { user: data.user } }"
+                  ><img
+                    :src="data.user.profileImage"
+                    alt="Avatar"
+                    width="50"
+                    height="50"
+                /></router-link>
+                <div class="info">
+                  <strong
+                    >{{ comment.user.name }}
+                    <span>@{{ comment.user.username }}</span></strong
+                  >
+                  <div style="display: flex">
+                    <p>{{ comment.comment }}</p>
+                  </div>
+                  <div class="actions" v-if="userCanEdit(comment.user.id)">
+                    <a @click="openEditComment(comment)" href="#"
+                      ><i
+                        style="color: grey; font-size: 16px"
+                        class="material-icons"
+                        >edit</i
+                      ></a
+                    >
+                    <a @click="deleteComment(comment)" href="#"
+                      ><i
+                        style="color: grey; font-size: 16px"
+                        class="material-icons"
+                        >delete</i
+                      ></a
+                    >
+                  </div>
+                </div>
+              </li>
             </div>
           </div>
-        </div>
+        </ul>
       </div>
     </li>
     <textarea
+      class="right"
       v-model="textForCreate"
       cols="50"
       placeholder="Add new comment"
@@ -107,15 +134,3 @@ export default {
   },
 };
 </script>
-<style>
-p.ex2 {
-  font-size: 50px;
-}
-textarea {
-  resize: none;
-  width: 300px;
-  height: 100px;
-  border-radius: 10px;
-  border: 1px solid rgb(9, 103, 139);
-}
-</style>

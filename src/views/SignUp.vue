@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <div class="container">
+    <div class="main">
       <nav class="navbar navbar-expand-lg navbar-info bg-info">
         <img src="../assets/logo.svg" alt="Logo Twitter" />
       </nav>
@@ -16,6 +16,13 @@
         v-model="user.name"
         placeholder="Enter Name"
         name="name"
+      />
+      <label class="required" for="lastName"><b>Last name</b></label>
+      <input
+        type="text"
+        v-model="user.surname"
+        placeholder="Enter Last Name"
+        name="lastName"
       />
       <label class="required" for="uname"><b>Username</b></label>
       <input
@@ -72,7 +79,7 @@ export default {
     signUp() {
       if (this.checkAllFields()) {
         this.user.profileImage =
-          "https://avatars.githubusercontent.com/u/41083127?v=4";
+          "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png";
         this.$store.dispatch("signUp", this.user);
       } else
         this.$store.state.errorMessages.push(
@@ -94,14 +101,23 @@ export default {
         );
       return emailValid;
     },
+    validatePassword() {
+      var validPass = this.user.password.length > 7;
+      if (!validPass)
+        this.$store.state.errorMessages.push(
+          "Password must have at least 8 characters"
+        );
+      return validPass;
+    },
     checkAllFields() {
       this.$store.commit("removeAllErrorText");
       return (
         this.validateEmail() &&
-        this.checkInput(this.user.password) &&
+        this.validatePassword() &&
         this.checkInput(this.user.username) &&
         this.checkInput(this.user.email) &&
-        this.checkInput(this.user.name)
+        this.checkInput(this.user.name) &&
+        this.checkInput(this.user.surname)
       );
     },
   },
@@ -110,39 +126,8 @@ export default {
       return this.$store.state.errorMessages;
     },
   },
+  beforeMount() {
+    this.$store.commit("removeAllErrorText");
+  },
 };
 </script>
-<style scoped>
-.container {
-  width: 50%;
-  padding: 16px;
-}
-
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  box-sizing: border-box;
-}
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-.parent {
-  display: flex; /* displays flex-items (children) inline */
-}
-.child {
-  flex-grow: 1; /* each flex-item grows and takes 1/3 of the parent's width */
-  text-align: center;
-  border: 1px solid;
-}
-</style>

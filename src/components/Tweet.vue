@@ -6,24 +6,25 @@
       /></router-link>
       <div class="info">
         <strong
-          >{{ fullName }} <span>{{ data.user.username }}</span></strong
+          >{{ fullName }} <span>@{{ data.user.username }}</span></strong
         >
         <div style="display: flex">
           <p>{{ data.tweet }}</p>
-          <div v-if="userCanChange()">
-            <a href="#" @click="openEditPost()"><b> edit/</b></a
-            ><a href="#" @click="deletePost()"><b> delete</b></a>
-          </div>
         </div>
         <div class="actions">
           <router-link :to="{ name: 'comments', params: { post: data } }">
             <img src="../assets/comments.svg" alt="Comments" />
             {{ data.commentsCount }}
           </router-link>
-          <a href="#"><img src="../assets/retweet.svg" alt="Retweet" />3434 </a>
-          <a href="#"
-            ><img src="../assets/like.svg" alt="Like" />
-            {{ data.likesCount }}</a
+          <a v-if="userCanChange()" @click="openEditPost()" href="#"
+            ><i style="color: grey; font-size: 16px" class="material-icons"
+              >edit</i
+            ></a
+          >
+          <a v-if="userCanChange()" @click="deletePost()" href="#"
+            ><i style="color: grey; font-size: 16px" class="material-icons"
+              >delete</i
+            ></a
           >
         </div>
       </div>

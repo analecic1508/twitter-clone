@@ -1,900 +1,118 @@
 {
   "users": [
     {
-      "id": 0,
-      "name": "Ana",
-      "surname": "Lecic",
-      "gender": "female",
-      "username": "ser_cope",
-      "dateOfBirth": "15.08.1990",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "password": "twitterClone"
+      "name": "Djurdjina",
+      "surname": "",
+      "gender": "",
+      "username": "Djina",
+      "dateOfBirth": "",
+      "profileImage": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
+      "status": "ja sam Djina",
+      "password": "d",
+      "email": "kovacevicana@yahoo.com",
+      "id": 1
     },
     {
-      "id": 1,
-      "name": "Djurjdina",
-      "surname": "Lecic",
-      "username": "đina",
-      "gender": "female",
-      "dateOfBirth": "27.02.2020",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "password": "twitterClone"
-    },
-    {
+      "name": "Adam",
+      "surname": "Smith",
+      "gender": "",
+      "username": "adamsmith",
+      "dateOfBirth": "",
+      "profileImage": "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "status": "My name is Adam :)",
+      "password": "12345678",
+      "email": "adam@adam.com",
       "id": 2
     },
     {
-      "id": 3,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 4,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 5,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 6,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 7,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 8,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 9,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 10,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 11,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 12,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 13,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 14,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 15,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 16,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 17,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 18,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 19,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 20,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 21,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 22,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 23,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 24,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 25,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 26,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "Ra",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "this is my profile",
-      "password": "ra",
-      "email": "r.lecic@gmail.com"
-    },
-    {
-      "id": 27,
-      "name": "",
-      "surname": "",
+      "name": "Ana ",
+      "surname": "Lecic",
       "gender": "",
       "username": "ana",
       "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "sdfsdfsdf",
-      "password": "rr",
-      "email": "kovacevicana@yahoo.com"
-    },
-    {
-      "id": 28,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "ana",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "sdfsdfsdf",
-      "password": "rr",
-      "email": "kovacevicana@yahoo.com"
-    },
-    {
-      "id": 29,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "qqq",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "qqqqq",
-      "password": "qqq",
-      "email": "qqq"
-    },
-    {
-      "id": 30,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "ana",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "weqwe",
-      "password": "44444",
-      "email": "kovacevicana@yaho"
-    },
-    {
-      "id": 31,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": ""
-    },
-    {
-      "id": 32,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": ""
-    },
-    {
-      "id": 33,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "zx",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "z\\xz\\x",
-      "password": "z\\x",
-      "email": "z\\xz\\"
-    },
-    {
-      "id": 34,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "8",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "9",
-      "password": "8",
-      "email": "9"
-    },
-    {
-      "id": 35,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "sd",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "sda",
-      "password": "sda",
-      "email": "asd"
-    },
-    {
-      "id": 36,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "saf",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "afs",
-      "password": "asf",
-      "email": "kovacevicana@yahoo.com"
-    },
-    {
-      "id": 37,
-      "name": "",
-      "surname": "",
-      "gender": "",
-      "username": "asd",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "xz",
-      "password": "sad",
-      "email": "kovacevicana@yahoo.com"
-    },
-    {
-      "id": 38,
-      "name": "Radmila ",
-      "surname": "",
-      "gender": "",
-      "username": "rada",
-      "dateOfBirth": "",
-      "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-      "status": "ja sam Djinina baka",
-      "password": "r",
-      "email": "r.lecic@gmail.com"
+      "profileImage": "https://cdn.icon-icons.com/icons2/1736/PNG/512/4043251-avatar-female-girl-woman_113291.png",
+      "status": "It s a nice day :)",
+      "password": "12345678",
+      "email": "kovacevicana@yahoo.com",
+      "id": 3
     }
   ],
   "posts": [
     {
       "id": 1,
       "user": {
-        "id": 1,
-        "name": "Djurjdina",
-        "surname": "Lecic",
-        "username": "đina",
-        "gender": "female",
-        "dateOfBirth": "27.02.2020",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4"
-      },
-      "tweet": "Djina cura fina",
-      "likesCount": "1000",
-      "commentsCount": "2",
-      "comments": []
-    },
-    {
-      "id": 2,
-      "user": {
-        "name": "DJuro",
-        "surname": "Lecic",
-        "username": "djuxon",
-        "gender": "male",
-        "dateOfBirth": "31.07.1990",
-        "profileImage": "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
-        "id": 2
-      },
-      "tweet": "Djina beba",
-      "likesCount": "1000",
-      "commentsCount": "999",
-      "comments": []
-    },
-    {
-      "user": {
-        "id": 29,
-        "name": "",
+        "name": "Djurdjina",
         "surname": "",
         "gender": "",
-        "username": "qqq",
+        "username": "Djina",
         "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "qqqqq",
-        "password": "qqq",
-        "email": "qqq"
+        "profileImage": "https://cdn2.iconfinder.com/data/icons/women-s-day-smooth-1/512/girl_baby_user_young_avatar_profile_people-512.png",
+        "status": "ja sam Djina",
+        "password": "d",
+        "email": "kovacevicana@yahoo.com",
+        "id": 1
       },
-      "tweet": "dsdsdsd",
+      "tweet": "Hello world!",
+      "likesCount": "",
+      "commentsCount": "",
+      "comments": []
+    },
+    {
+      "user": {
+        "name": "Ana ",
+        "surname": "Lecic",
+        "gender": "",
+        "username": "ana",
+        "dateOfBirth": "",
+        "profileImage": "https://cdn.icon-icons.com/icons2/1736/PNG/512/4043251-avatar-female-girl-woman_113291.png",
+        "status": "It s a nice day :)",
+        "password": "12345678",
+        "email": "kovacevicana@yahoo.com",
+        "id": 3
+      },
+      "tweet": "Hi Antonije, how are you ?",
+      "likesCount": "",
+      "commentsCount": "",
+      "comments": [],
+      "id": 2
+    },
+    {
+      "user": {
+        "name": "Adam",
+        "surname": "Smith",
+        "gender": "",
+        "username": "adamsmith",
+        "dateOfBirth": "",
+        "profileImage": "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+        "status": "My name is Adam :)",
+        "password": "12345678",
+        "email": "adam@adam.com",
+        "id": 2
+      },
+      "tweet": "This is my first tweet!",
       "likesCount": "",
       "commentsCount": "",
       "comments": [],
       "id": 3
-    },
-    {
-      "user": {
-        "id": 29,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "qqq",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "qqqqq",
-        "password": "qqq",
-        "email": "qqq"
-      },
-      "tweet": "z\\xz\\x",
-      "likesCount": "",
-      "commentsCount": "",
-      "comments": [],
-      "id": 4
-    },
-    {
-      "id": 5,
-      "user": {
-        "id": 38,
-        "name": "Radmila ",
-        "surname": "",
-        "gender": "",
-        "username": "rada",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "ja sam Djinina baka",
-        "password": "r",
-        "email": "r.lecic@gmail.com"
-      },
-      "tweet": "Djina voli svoju baku <3",
-      "likesCount": "",
-      "commentsCount": "",
-      "comments": []
-    },
-    {
-      "id": 6,
-      "user": {
-        "id": 38,
-        "name": "Radmila ",
-        "surname": "",
-        "gender": "",
-        "username": "rada",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "ja sam Djinina baka",
-        "password": "r",
-        "email": "r.lecic@gmail.com"
-      },
-      "tweet": "wew",
-      "likesCount": "",
-      "commentsCount": "",
-      "comments": []
     }
   ],
   "comments": [
     {
-      "id": 6,
+      "id": 1,
       "post_id": 1,
       "user": {
-        "id": 1,
-        "name": "Djina",
-        "surname": "Lecic",
-        "gender": "female",
-        "dateOfBirth": "27.02.2020",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4"
-      },
-      "comment": "Djinin commenttttt"
-    },
-    {
-      "id": 5,
-      "post_id": 2,
-      "user": {
-        "id": 0,
-        "name": "Ana",
-        "surname": "Lecic",
-        "gender": "female",
-        "dateOfBirth": "15.08.1990",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4"
-      },
-      "comment": "Neki tamo commenttttt"
-    },
-    {
-      "comment": {
-        "id": 0,
-        "post_id": 0,
-        "user": {
-          "id": 0,
-          "name": "Ana",
-          "surname": "Lecic",
-          "gender": "female",
-          "dateOfBirth": "15.08.1990",
-          "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4"
-        },
-        "comment": ""
-      },
-      "id": 7
-    },
-    {
-      "comment": {
-        "id": 0,
-        "post_id": 0,
-        "user": {
-          "id": 0,
-          "name": "Ana",
-          "surname": "Lecic",
-          "gender": "female",
-          "dateOfBirth": "15.08.1990",
-          "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4"
-        },
-        "comment": "sdfsdfsdf"
-      },
-      "id": 8
-    },
-    {
-      "comment": {
-        "id": 0,
-        "post_id": 0,
-        "user": {
-          "id": 0,
-          "name": "Ana",
-          "surname": "Lecic",
-          "gender": "female",
-          "dateOfBirth": "15.08.1990",
-          "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4"
-        },
-        "comment": "xczxczxczxc"
-      },
-      "id": 9
-    },
-    {
-      "comment": {
-        "id": 0,
-        "post_id": 0,
-        "user": {
-          "id": 0,
-          "name": "Ana",
-          "surname": "Lecic",
-          "gender": "female",
-          "dateOfBirth": "15.08.1990",
-          "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4"
-        },
-        "comment": "xczxczxczxczxczxczxc"
-      },
-      "id": 10
-    },
-    {
-      "id": 11,
-      "post_id": 0,
-      "user": {
-        "id": 0,
-        "name": "Ana",
-        "surname": "Lecic",
-        "gender": "female",
-        "dateOfBirth": "15.08.1990",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4"
-      },
-      "comment": "dasdasd"
-    },
-    {
-      "comment": "asdasdasd",
-      "id": 12
-    },
-    {
-      "post_id": 0,
-      "user": {
-        "id": 0,
-        "name": "",
+        "name": "Djurdjina",
         "surname": "",
         "gender": "",
-        "username": "",
+        "username": "Djina",
         "dateOfBirth": "",
-        "profileImage": "",
-        "status": ""
+        "profileImage": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
+        "status": "ja sam Djina",
+        "password": "d",
+        "email": "kovacevicana@yahoo.com",
+        "id": 1
       },
-      "comment": "gdfgdfgdfg",
-      "id": 13
-    },
-    {
-      "post_id": 2,
-      "user": {
-        "id": 0,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "werwer",
-        "dateOfBirth": "",
-        "profileImage": "",
-        "status": "",
-        "password": "werwer"
-      },
-      "comment": "assasa",
-      "id": 14
-    },
-    {
-      "post_id": 1,
-      "user": {
-        "id": 0,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "zxc",
-        "dateOfBirth": "",
-        "profileImage": "",
-        "status": "",
-        "password": "zxczxc"
-      },
-      "comment": "fxdfsdf",
-      "id": 15
-    },
-    {
-      "post_id": 3,
-      "user": {
-        "id": 29,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "qqq",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "qqqqq",
-        "password": "qqq",
-        "email": "qqq"
-      },
-      "comment": "z\\xz\\",
-      "id": 17
-    },
-    {
-      "post_id": 3,
-      "user": {
-        "id": 29,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "qqq",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "qqqqq",
-        "password": "qqq",
-        "email": "qqq"
-      },
-      "comment": "",
-      "id": 18
-    },
-    {
-      "post_id": 3,
-      "user": {
-        "id": 29,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "qqq",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "qqqqq",
-        "password": "qqq",
-        "email": "qqq"
-      },
-      "comment": "z\\xz\\zx\\xz\\",
-      "id": 19
-    },
-    {
-      "post_id": 4,
-      "user": {
-        "id": 29,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "qqq",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "qqqqq",
-        "password": "qqq",
-        "email": "qqq"
-      },
-      "comment": "xxxx",
-      "id": 20
-    },
-    {
-      "post_id": 4,
-      "user": {
-        "id": 29,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "qqq",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "qqqqq",
-        "password": "qqq",
-        "email": "qqq"
-      },
-      "comment": "dfsdfsdf",
-      "id": 21
-    },
-    {
-      "post_id": 1,
-      "user": {
-        "id": 37,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "asd",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "xz",
-        "password": "sad",
-        "email": "kovacevicana@yahoo.com"
-      },
-      "comment": "asdasd",
-      "id": 22
-    },
-    {
-      "post_id": 1,
-      "user": {
-        "id": 37,
-        "name": "",
-        "surname": "",
-        "gender": "",
-        "username": "asd",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "xz",
-        "password": "sad",
-        "email": "kovacevicana@yahoo.com"
-      },
-      "comment": "fgdfdsfdsf",
-      "id": 23
-    },
-    {
-      "post_id": 1,
-      "user": {
-        "id": 0,
-        "name": "Ana",
-        "surname": "Lecic",
-        "gender": "female",
-        "username": "ser_cope",
-        "dateOfBirth": "15.08.1990",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "password": "twitterClone"
-      },
-      "comment": "",
-      "id": 24
-    },
-    {
-      "id": 27,
-      "post_id": 1,
-      "user": {
-        "id": 38,
-        "name": "Radmila ",
-        "surname": "",
-        "gender": "",
-        "username": "rada",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "ja sam Djinina baka",
-        "password": "r",
-        "email": "r.lecic@gmail.com"
-      },
-      "comment": "sdafa"
-    },
-    {
-      "post_id": 5,
-      "user": {
-        "id": 38,
-        "name": "Radmila ",
-        "surname": "",
-        "gender": "",
-        "username": "rada",
-        "dateOfBirth": "",
-        "profileImage": "https://avatars.githubusercontent.com/u/41083127?v=4",
-        "status": "ja sam Djinina baka",
-        "password": "r",
-        "email": "r.lecic@gmail.com"
-      },
-      "comment": "bakaaaa",
-      "id": 28
+      "comment": "Hi!"
     }
-  ],
-  "login": {
-    "id": 0,
-    "name": "",
-    "surname": "",
-    "gender": "",
-    "username": "eerere",
-    "dateOfBirth": "",
-    "profileImage": "",
-    "status": "",
-    "password": "reer"
-  }
+  ]
 }

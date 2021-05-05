@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <div class="container">
+    <div class="main">
       <nav class="navbar navbar-expand-lg navbar-info bg-info">
         <img src="../assets/logo.svg" alt="Logo Twitter" />
       </nav>
@@ -72,27 +72,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.container {
-  padding: 16px;
-  width: 50%;
-}
-
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  box-sizing: border-box;
-}
-.parent {
-  display: flex; /* displays flex-items (children) inline */
-}
-.child {
-  flex-grow: 1; /* each flex-item grows and takes 1/3 of the parent's width */
-  text-align: center;
-  border: 1px solid;
-}
-</style>
