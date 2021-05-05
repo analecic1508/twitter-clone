@@ -48,6 +48,6 @@ const router = new Router({
 })
 
 router.beforeEach((to, from, next) => {
-  next(to.name == "logIn" || store.state.authenticated == true);
+  next(to.name == "logIn" || to.name == "signUp" || store.state.authenticated == true);
 })
 export default router
