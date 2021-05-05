@@ -458,7 +458,7 @@
     color: #9a9a9a;
   }
   
-  div.wrapper-content aside.widgets .follow ul li .profile .info button {
+  div.wrapper-content aside.widgets .follow ul li .profile .info button a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -487,4 +487,66 @@
   background-color: #cccccc;
   color: #666666;
   pointer-events: none;
+}
+.primaryText {
+  font-size: 36px;
+  color: black;
+  font-style: italic;
+}
+.secondaryText {
+  font-size: 18px;
+  color: black;
+}
+.tertiaryText {
+  font-size: 16px;
+  color: silver;
+}
+textarea {
+  resize: none;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(9, 103, 139);
+}
+.right{
+  resize: none;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  display: inline;
+  border: 1px solid rgb(9, 103, 139);
+}
+.main {
+  padding: 16px;
+  width: 50%;
+}
+
+div.main input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.parent {
+  display: flex; /* displays flex-items (children) inline */
+}
+.child {
+  flex-grow: 1; /* each flex-item grows and takes 1/3 of the parent's width */
+  text-align: center;
+  border: 1px solid;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
 }

@@ -22,9 +22,9 @@
 
 <script>
 import Tweet from "../components/Tweet.vue";
-import Header from "../components/Header.vue";
-import Bar from "../components/Bar.vue";
-import ProfileInfo from "../components/ProfileInfo.vue";
+import Header from "../components/layout/Header.vue";
+import Bar from "../components/layout/Bar.vue";
+import ProfileInfo from "../components/layout/ProfileInfo.vue";
 export default {
   components: {
     Tweet,

@@ -5,31 +5,33 @@
     <div class="wrapper-content content">
       <section class="timeline">
         <nav>
-          <a class="active" href="">Tweets</a>
+          <a class="active" href="">Users</a>
         </nav>
         <ul class="tweets">
-          <Tweet :data="post" v-for="post in posts" :key="post.id" />
+          <user :data="user" v-for="user in users" :key="user.id" />
+          <div style="height: 300px" v-if="!users.length">
+            <p>No users found!</p>
+          </div>
         </ul>
       </section>
     </div>
   </div>
 </template>
 <script>
-import Tweet from "../components/Tweet.vue";
 import Header from "../components/layout/Header.vue";
+import User from "../components/User";
 export default {
   components: {
-    Tweet: Tweet,
     Header: Header,
+    User: User,
   },
   computed: {
-    posts() {
-      return this.$store.state.posts;
+    users() {
+      return this.$store.state.users;
     },
   },
   beforeMount() {
     this.$store.commit("removeAllErrorText");
-    this.$store.dispatch("getPosts");
   },
 };
 </script>

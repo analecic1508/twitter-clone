@@ -8,18 +8,18 @@
           <a class="active" href="">Tweets</a>
         </nav>
         <ul class="tweets">
-          <TweetWithComments :data="post" :key="post.id" />
+          <CommentsEdit :data="post" :key="post.id" />
         </ul>
       </section>
     </div>
   </div>
 </template>
 <script>
-import TweetWithComments from "../components/TweetWithComments.vue";
-import Header from "../components/Header.vue";
+import CommentsEdit from "../components/CommentsEdit.vue";
+import Header from "../components/layout/Header.vue";
 export default {
   components: {
-    TweetWithComments: TweetWithComments,
+    CommentsEdit: CommentsEdit,
     Header: Header,
   },
   computed: {

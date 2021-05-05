@@ -1,7 +1,6 @@
 /* eslint-disable prettier/prettier */
 export function initializeUser() {
     return {
-        id: 0,
         name: "",
         surname: "",
         gender: "",

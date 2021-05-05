@@ -4,7 +4,7 @@
       <div class="modal-header">
         <h2>{{ title }}</h2>
       </div>
-      <div class="modal-body">
+      <div class="modal-text">
         <slot></slot>
       </div>
     </div>
@@ -37,16 +37,13 @@ body {
 
 /* The Modal (background) */
 .modal {
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  position: absolute;
+  right: 0;
   left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  top: 200px;
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
 }
 
 /* Modal Content */
@@ -108,7 +105,7 @@ body {
   color: white;
 }
 
-.modal-body {
+.modal-text {
   padding: 2px 16px;
 }
 
