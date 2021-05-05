@@ -35,6 +35,18 @@
       "password": "12345678",
       "email": "kovacevicana@yahoo.com",
       "id": 3
+    },
+    {
+      "name": "Test ",
+      "surname": "User",
+      "gender": "",
+      "username": "user",
+      "dateOfBirth": "",
+      "profileImage": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
+      "status": "I am a test user",
+      "password": "12345678",
+      "email": "kovacevicana@yahoo.com",
+      "id": 4
     }
   ],
   "posts": [
@@ -94,6 +106,44 @@
       "commentsCount": "",
       "comments": [],
       "id": 3
+    },
+    {
+      "user": {
+        "name": "Adam",
+        "surname": "Smith",
+        "gender": "",
+        "username": "adamsmith",
+        "dateOfBirth": "",
+        "profileImage": "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+        "status": "My name is Adam :)",
+        "password": "12345678",
+        "email": "adam@adam.com",
+        "id": 2
+      },
+      "tweet": "Zdravo Djina !",
+      "likesCount": "",
+      "commentsCount": "",
+      "comments": [],
+      "id": 4
+    },
+    {
+      "user": {
+        "name": "Test ",
+        "surname": "User",
+        "gender": "",
+        "username": "user",
+        "dateOfBirth": "",
+        "profileImage": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
+        "status": "I am a test user",
+        "password": "12345678",
+        "email": "kovacevicana@yahoo.com",
+        "id": 4
+      },
+      "tweet": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "likesCount": "",
+      "commentsCount": "",
+      "comments": [],
+      "id": 5
     }
   ],
   "comments": [
